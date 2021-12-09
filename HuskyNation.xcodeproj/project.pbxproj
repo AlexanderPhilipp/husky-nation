@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F335CC4827617F4A002DEC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC4727617F4A002DEC83 /* AppDelegate.swift */; };
+		F335CC4A27617F4A002DEC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC4927617F4A002DEC83 /* SceneDelegate.swift */; };
+		F335CC4C27617F4A002DEC83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC4B27617F4A002DEC83 /* ViewController.swift */; };
+		F335CC4F27617F4A002DEC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F335CC4D27617F4A002DEC83 /* Main.storyboard */; };
+		F335CC5227617F4A002DEC83 /* HuskyNation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F335CC5027617F4A002DEC83 /* HuskyNation.xcdatamodeld */; };
+		F335CC5427617F4B002DEC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F335CC5327617F4B002DEC83 /* Assets.xcassets */; };
+		F335CC5727617F4B002DEC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F335CC5527617F4B002DEC83 /* LaunchScreen.storyboard */; };
+		F335CC6227617F4B002DEC83 /* HuskyNationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC6127617F4B002DEC83 /* HuskyNationTests.swift */; };
+		F335CC6C27617F4B002DEC83 /* HuskyNationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC6B27617F4B002DEC83 /* HuskyNationUITests.swift */; };
+		F335CC6E27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC6D27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F335CC5E27617F4B002DEC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F335CC3C27617F4A002DEC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F335CC4327617F4A002DEC83;
+			remoteInfo = HuskyNation;
+		};
+		F335CC6827617F4B002DEC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F335CC3C27617F4A002DEC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F335CC4327617F4A002DEC83;
+			remoteInfo = HuskyNation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F335CC4427617F4A002DEC83 /* HuskyNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuskyNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F335CC4727617F4A002DEC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F335CC4927617F4A002DEC83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F335CC4B27617F4A002DEC83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F335CC4E27617F4A002DEC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F335CC5127617F4A002DEC83 /* HuskyNation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuskyNation.xcdatamodel; sourceTree = "<group>"; };
+		F335CC5327617F4B002DEC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F335CC5627617F4B002DEC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F335CC5827617F4B002DEC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F335CC5D27617F4B002DEC83 /* HuskyNationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuskyNationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F335CC6127617F4B002DEC83 /* HuskyNationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskyNationTests.swift; sourceTree = "<group>"; };
+		F335CC6727617F4B002DEC83 /* HuskyNationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuskyNationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F335CC6B27617F4B002DEC83 /* HuskyNationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskyNationUITests.swift; sourceTree = "<group>"; };
+		F335CC6D27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskyNationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F335CC4127617F4A002DEC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F335CC5A27617F4B002DEC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F335CC6427617F4B002DEC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F335CC3B27617F4A002DEC83 = {
+			isa = PBXGroup;
+			children = (
+				F335CC4627617F4A002DEC83 /* HuskyNation */,
+				F335CC6027617F4B002DEC83 /* HuskyNationTests */,
+				F335CC6A27617F4B002DEC83 /* HuskyNationUITests */,
+				F335CC4527617F4A002DEC83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F335CC4527617F4A002DEC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F335CC4427617F4A002DEC83 /* HuskyNation.app */,
+				F335CC5D27617F4B002DEC83 /* HuskyNationTests.xctest */,
+				F335CC6727617F4B002DEC83 /* HuskyNationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F335CC4627617F4A002DEC83 /* HuskyNation */ = {
+			isa = PBXGroup;
+			children = (
+				F335CC4727617F4A002DEC83 /* AppDelegate.swift */,
+				F335CC4927617F4A002DEC83 /* SceneDelegate.swift */,
+				F335CC4B27617F4A002DEC83 /* ViewController.swift */,
+				F335CC4D27617F4A002DEC83 /* Main.storyboard */,
+				F335CC5327617F4B002DEC83 /* Assets.xcassets */,
+				F335CC5527617F4B002DEC83 /* LaunchScreen.storyboard */,
+				F335CC5827617F4B002DEC83 /* Info.plist */,
+				F335CC5027617F4A002DEC83 /* HuskyNation.xcdatamodeld */,
+			);
+			path = HuskyNation;
+			sourceTree = "<group>";
+		};
+		F335CC6027617F4B002DEC83 /* HuskyNationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F335CC6127617F4B002DEC83 /* HuskyNationTests.swift */,
+			);
+			path = HuskyNationTests;
+			sourceTree = "<group>";
+		};
+		F335CC6A27617F4B002DEC83 /* HuskyNationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F335CC6B27617F4B002DEC83 /* HuskyNationUITests.swift */,
+				F335CC6D27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift */,
+			);
+			path = HuskyNationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F335CC4327617F4A002DEC83 /* HuskyNation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F335CC7127617F4B002DEC83 /* Build configuration list for PBXNativeTarget "HuskyNation" */;
+			buildPhases = (
+				F335CC4027617F4A002DEC83 /* Sources */,
+				F335CC4127617F4A002DEC83 /* Frameworks */,
+				F335CC4227617F4A002DEC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuskyNation;
+			productName = HuskyNation;
+			productReference = F335CC4427617F4A002DEC83 /* HuskyNation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F335CC5C27617F4B002DEC83 /* HuskyNationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F335CC7427617F4B002DEC83 /* Build configuration list for PBXNativeTarget "HuskyNationTests" */;
+			buildPhases = (
+				F335CC5927617F4B002DEC83 /* Sources */,
+				F335CC5A27617F4B002DEC83 /* Frameworks */,
+				F335CC5B27617F4B002DEC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F335CC5F27617F4B002DEC83 /* PBXTargetDependency */,
+			);
+			name = HuskyNationTests;
+			productName = HuskyNationTests;
+			productReference = F335CC5D27617F4B002DEC83 /* HuskyNationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F335CC6627617F4B002DEC83 /* HuskyNationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F335CC7727617F4B002DEC83 /* Build configuration list for PBXNativeTarget "HuskyNationUITests" */;
+			buildPhases = (
+				F335CC6327617F4B002DEC83 /* Sources */,
+				F335CC6427617F4B002DEC83 /* Frameworks */,
+				F335CC6527617F4B002DEC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F335CC6927617F4B002DEC83 /* PBXTargetDependency */,
+			);
+			name = HuskyNationUITests;
+			productName = HuskyNationUITests;
+			productReference = F335CC6727617F4B002DEC83 /* HuskyNationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F335CC3C27617F4A002DEC83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F335CC4327617F4A002DEC83 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F335CC5C27617F4B002DEC83 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F335CC4327617F4A002DEC83;
+					};
+					F335CC6627617F4B002DEC83 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F335CC4327617F4A002DEC83;
+					};
+				};
+			};
+			buildConfigurationList = F335CC3F27617F4A002DEC83 /* Build configuration list for PBXProject "HuskyNation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F335CC3B27617F4A002DEC83;
+			productRefGroup = F335CC4527617F4A002DEC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F335CC4327617F4A002DEC83 /* HuskyNation */,
+				F335CC5C27617F4B002DEC83 /* HuskyNationTests */,
+				F335CC6627617F4B002DEC83 /* HuskyNationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F335CC4227617F4A002DEC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F335CC5727617F4B002DEC83 /* LaunchScreen.storyboard in Resources */,
+				F335CC5427617F4B002DEC83 /* Assets.xcassets in Resources */,
+				F335CC4F27617F4A002DEC83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F335CC5B27617F4B002DEC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F335CC6527617F4B002DEC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F335CC4027617F4A002DEC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F335CC4C27617F4A002DEC83 /* ViewController.swift in Sources */,
+				F335CC5227617F4A002DEC83 /* HuskyNation.xcdatamodeld in Sources */,
+				F335CC4827617F4A002DEC83 /* AppDelegate.swift in Sources */,
+				F335CC4A27617F4A002DEC83 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F335CC5927617F4B002DEC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F335CC6227617F4B002DEC83 /* HuskyNationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F335CC6327617F4B002DEC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F335CC6E27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift in Sources */,
+				F335CC6C27617F4B002DEC83 /* HuskyNationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F335CC5F27617F4B002DEC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F335CC4327617F4A002DEC83 /* HuskyNation */;
+			targetProxy = F335CC5E27617F4B002DEC83 /* PBXContainerItemProxy */;
+		};
+		F335CC6927617F4B002DEC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F335CC4327617F4A002DEC83 /* HuskyNation */;
+			targetProxy = F335CC6827617F4B002DEC83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F335CC4D27617F4A002DEC83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F335CC4E27617F4A002DEC83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F335CC5527617F4B002DEC83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F335CC5627617F4B002DEC83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F335CC6F27617F4B002DEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F335CC7027617F4B002DEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F335CC7227617F4B002DEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRDCR52ZJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HuskyNation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F335CC7327617F4B002DEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRDCR52ZJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HuskyNation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F335CC7527617F4B002DEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRDCR52ZJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuskyNation.app/HuskyNation";
+			};
+			name = Debug;
+		};
+		F335CC7627617F4B002DEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRDCR52ZJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuskyNation.app/HuskyNation";
+			};
+			name = Release;
+		};
+		F335CC7827617F4B002DEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRDCR52ZJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuskyNation;
+			};
+			name = Debug;
+		};
+		F335CC7927617F4B002DEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRDCR52ZJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuskyNation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F335CC3F27617F4A002DEC83 /* Build configuration list for PBXProject "HuskyNation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F335CC6F27617F4B002DEC83 /* Debug */,
+				F335CC7027617F4B002DEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F335CC7127617F4B002DEC83 /* Build configuration list for PBXNativeTarget "HuskyNation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F335CC7227617F4B002DEC83 /* Debug */,
+				F335CC7327617F4B002DEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F335CC7427617F4B002DEC83 /* Build configuration list for PBXNativeTarget "HuskyNationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F335CC7527617F4B002DEC83 /* Debug */,
+				F335CC7627617F4B002DEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F335CC7727617F4B002DEC83 /* Build configuration list for PBXNativeTarget "HuskyNationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F335CC7827617F4B002DEC83 /* Debug */,
+				F335CC7927617F4B002DEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F335CC5027617F4A002DEC83 /* HuskyNation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F335CC5127617F4A002DEC83 /* HuskyNation.xcdatamodel */,
+			);
+			currentVersion = F335CC5127617F4A002DEC83 /* HuskyNation.xcdatamodel */;
+			path = HuskyNation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F335CC3C27617F4A002DEC83 /* Project object */;
+}
