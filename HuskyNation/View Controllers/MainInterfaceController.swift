@@ -6,20 +6,17 @@
 //
 
 import UIKit
+import WebKit;
 
 class MainInterfaceController : UITabBarController
 {
-    var apiHelper : ApiHelper?;                     //API Helper Class for interactions with the Blackbaud solution
-    let AuthorizationWindow = "";
+    var apiHelper = ApiHelper(); //API Helper Class for interactions with the Blackbaud solution
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        apiHelper = ApiHelper(Endpoint: "");
-        if(apiHelper?.IsAuthorized == false){
-            performSegue(withIdentifier: "AuthPopOver", sender: nil)
-        }
+        apiHelper.RequestAuthorization(viewController: self)
     }
 }

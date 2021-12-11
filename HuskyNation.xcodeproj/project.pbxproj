@@ -23,6 +23,7 @@
 		F355F235276507F500B58D30 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F234276507F500B58D30 /* ApiHelper.swift */; };
 		F355F2372765107800B58D30 /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F2362765107800B58D30 /* MainInterfaceController.swift */; };
 		F355F23927651FD700B58D30 /* AuthorizationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F23827651FD700B58D30 /* AuthorizationPageView.swift */; };
+		F355F23C276678C000B58D30 /* Redirect-Auth.php in Resources */ = {isa = PBXBuildFile; fileRef = F355F23B276678C000B58D30 /* Redirect-Auth.php */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F355F234276507F500B58D30 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
 		F355F2362765107800B58D30 /* MainInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
 		F355F23827651FD700B58D30 /* AuthorizationPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPageView.swift; sourceTree = "<group>"; };
+		F355F23B276678C000B58D30 /* Redirect-Auth.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = "Redirect-Auth.php"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +115,9 @@
 		F335CC4627617F4A002DEC83 /* HuskyNation */ = {
 			isa = PBXGroup;
 			children = (
+				F355F23A2766788400B58D30 /* RedirectionPages */,
 				F355F233276507DB00B58D30 /* View Controllers */,
 				F355F232276507C000B58D30 /* API */,
-				F355F231276507AC00B58D30 /* Ressources */,
 				F355F2302765079600B58D30 /* Development Information */,
 				F335CC4727617F4A002DEC83 /* AppDelegate.swift */,
 				F335CC4927617F4A002DEC83 /* SceneDelegate.swift */,
@@ -154,17 +156,10 @@
 			path = "Development Information";
 			sourceTree = "<group>";
 		};
-		F355F231276507AC00B58D30 /* Ressources */ = {
-			isa = PBXGroup;
-			children = (
-				F355F234276507F500B58D30 /* ApiHelper.swift */,
-			);
-			path = Ressources;
-			sourceTree = "<group>";
-		};
 		F355F232276507C000B58D30 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				F355F234276507F500B58D30 /* ApiHelper.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -178,6 +173,14 @@
 				F355F2362765107800B58D30 /* MainInterfaceController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F355F23A2766788400B58D30 /* RedirectionPages */ = {
+			isa = PBXGroup;
+			children = (
+				F355F23B276678C000B58D30 /* Redirect-Auth.php */,
+			);
+			path = RedirectionPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +289,7 @@
 			files = (
 				F355F22F2765078100B58D30 /* StyleColorPallet.png in Resources */,
 				F335CC5727617F4B002DEC83 /* LaunchScreen.storyboard in Resources */,
+				F355F23C276678C000B58D30 /* Redirect-Auth.php in Resources */,
 				F335CC5427617F4B002DEC83 /* Assets.xcassets in Resources */,
 				F335CC4F27617F4A002DEC83 /* Main.storyboard in Resources */,
 				F355F22B276502EE00B58D30 /* DevelopmentInformation in Resources */,
