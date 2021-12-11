@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F335CC4827617F4A002DEC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC4727617F4A002DEC83 /* AppDelegate.swift */; };
 		F335CC4A27617F4A002DEC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC4927617F4A002DEC83 /* SceneDelegate.swift */; };
-		F335CC4C27617F4A002DEC83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC4B27617F4A002DEC83 /* ViewController.swift */; };
+		F335CC4C27617F4A002DEC83 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC4B27617F4A002DEC83 /* HomePageView.swift */; };
 		F335CC4F27617F4A002DEC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F335CC4D27617F4A002DEC83 /* Main.storyboard */; };
 		F335CC5227617F4A002DEC83 /* HuskyNation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F335CC5027617F4A002DEC83 /* HuskyNation.xcdatamodeld */; };
 		F335CC5427617F4B002DEC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F335CC5327617F4B002DEC83 /* Assets.xcassets */; };
@@ -17,6 +17,10 @@
 		F335CC6227617F4B002DEC83 /* HuskyNationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC6127617F4B002DEC83 /* HuskyNationTests.swift */; };
 		F335CC6C27617F4B002DEC83 /* HuskyNationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC6B27617F4B002DEC83 /* HuskyNationUITests.swift */; };
 		F335CC6E27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335CC6D27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift */; };
+		F355F22B276502EE00B58D30 /* DevelopmentInformation in Resources */ = {isa = PBXBuildFile; fileRef = F355F22A276502EE00B58D30 /* DevelopmentInformation */; };
+		F355F22D2765046500B58D30 /* AssignmentPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F22C2765046500B58D30 /* AssignmentPageView.swift */; };
+		F355F22F2765078100B58D30 /* StyleColorPallet.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F22E2765078100B58D30 /* StyleColorPallet.png */; };
+		F355F235276507F500B58D30 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F234276507F500B58D30 /* ApiHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 		F335CC4427617F4A002DEC83 /* HuskyNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuskyNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F335CC4727617F4A002DEC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F335CC4927617F4A002DEC83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F335CC4B27617F4A002DEC83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F335CC4B27617F4A002DEC83 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		F335CC4E27617F4A002DEC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F335CC5127617F4A002DEC83 /* HuskyNation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuskyNation.xcdatamodel; sourceTree = "<group>"; };
 		F335CC5327617F4B002DEC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		F335CC6727617F4B002DEC83 /* HuskyNationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuskyNationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F335CC6B27617F4B002DEC83 /* HuskyNationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskyNationUITests.swift; sourceTree = "<group>"; };
 		F335CC6D27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskyNationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F355F22A276502EE00B58D30 /* DevelopmentInformation */ = {isa = PBXFileReference; lastKnownFileType = text; path = DevelopmentInformation; sourceTree = "<group>"; };
+		F355F22C2765046500B58D30 /* AssignmentPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentPageView.swift; sourceTree = "<group>"; };
+		F355F22E2765078100B58D30 /* StyleColorPallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StyleColorPallet.png; sourceTree = "<group>"; };
+		F355F234276507F500B58D30 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,12 @@
 		F335CC4627617F4A002DEC83 /* HuskyNation */ = {
 			isa = PBXGroup;
 			children = (
+				F355F233276507DB00B58D30 /* View Controllers */,
+				F355F232276507C000B58D30 /* API */,
+				F355F231276507AC00B58D30 /* Ressources */,
+				F355F2302765079600B58D30 /* Development Information */,
 				F335CC4727617F4A002DEC83 /* AppDelegate.swift */,
 				F335CC4927617F4A002DEC83 /* SceneDelegate.swift */,
-				F335CC4B27617F4A002DEC83 /* ViewController.swift */,
 				F335CC4D27617F4A002DEC83 /* Main.storyboard */,
 				F335CC5327617F4B002DEC83 /* Assets.xcassets */,
 				F335CC5527617F4B002DEC83 /* LaunchScreen.storyboard */,
@@ -128,6 +139,39 @@
 				F335CC6D27617F4B002DEC83 /* HuskyNationUITestsLaunchTests.swift */,
 			);
 			path = HuskyNationUITests;
+			sourceTree = "<group>";
+		};
+		F355F2302765079600B58D30 /* Development Information */ = {
+			isa = PBXGroup;
+			children = (
+				F355F22E2765078100B58D30 /* StyleColorPallet.png */,
+				F355F22A276502EE00B58D30 /* DevelopmentInformation */,
+			);
+			path = "Development Information";
+			sourceTree = "<group>";
+		};
+		F355F231276507AC00B58D30 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				F355F234276507F500B58D30 /* ApiHelper.swift */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		F355F232276507C000B58D30 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F355F233276507DB00B58D30 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F335CC4B27617F4A002DEC83 /* HomePageView.swift */,
+				F355F22C2765046500B58D30 /* AssignmentPageView.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F355F22F2765078100B58D30 /* StyleColorPallet.png in Resources */,
 				F335CC5727617F4B002DEC83 /* LaunchScreen.storyboard in Resources */,
 				F335CC5427617F4B002DEC83 /* Assets.xcassets in Resources */,
 				F335CC4F27617F4A002DEC83 /* Main.storyboard in Resources */,
+				F355F22B276502EE00B58D30 /* DevelopmentInformation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F335CC4C27617F4A002DEC83 /* ViewController.swift in Sources */,
+				F355F235276507F500B58D30 /* ApiHelper.swift in Sources */,
+				F355F22D2765046500B58D30 /* AssignmentPageView.swift in Sources */,
+				F335CC4C27617F4A002DEC83 /* HomePageView.swift in Sources */,
 				F335CC5227617F4A002DEC83 /* HuskyNation.xcdatamodeld in Sources */,
 				F335CC4827617F4A002DEC83 /* AppDelegate.swift in Sources */,
 				F335CC4A27617F4A002DEC83 /* SceneDelegate.swift in Sources */,
@@ -449,14 +497,17 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderphilipp.HuskyNation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -477,14 +528,17 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.alexanderphilipp.HuskyNation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderphilipp.HuskyNation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
