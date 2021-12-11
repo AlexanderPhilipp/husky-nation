@@ -21,6 +21,8 @@
 		F355F22D2765046500B58D30 /* AssignmentPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F22C2765046500B58D30 /* AssignmentPageView.swift */; };
 		F355F22F2765078100B58D30 /* StyleColorPallet.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F22E2765078100B58D30 /* StyleColorPallet.png */; };
 		F355F235276507F500B58D30 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F234276507F500B58D30 /* ApiHelper.swift */; };
+		F355F2372765107800B58D30 /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F2362765107800B58D30 /* MainInterfaceController.swift */; };
+		F355F23927651FD700B58D30 /* AuthorizationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F23827651FD700B58D30 /* AuthorizationPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		F355F22C2765046500B58D30 /* AssignmentPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentPageView.swift; sourceTree = "<group>"; };
 		F355F22E2765078100B58D30 /* StyleColorPallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StyleColorPallet.png; sourceTree = "<group>"; };
 		F355F234276507F500B58D30 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		F355F2362765107800B58D30 /* MainInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
+		F355F23827651FD700B58D30 /* AuthorizationPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 			children = (
 				F335CC4B27617F4A002DEC83 /* HomePageView.swift */,
 				F355F22C2765046500B58D30 /* AssignmentPageView.swift */,
+				F355F23827651FD700B58D30 /* AuthorizationPageView.swift */,
+				F355F2362765107800B58D30 /* MainInterfaceController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -312,7 +318,9 @@
 				F335CC4C27617F4A002DEC83 /* HomePageView.swift in Sources */,
 				F335CC5227617F4A002DEC83 /* HuskyNation.xcdatamodeld in Sources */,
 				F335CC4827617F4A002DEC83 /* AppDelegate.swift in Sources */,
+				F355F2372765107800B58D30 /* MainInterfaceController.swift in Sources */,
 				F335CC4A27617F4A002DEC83 /* SceneDelegate.swift in Sources */,
+				F355F23927651FD700B58D30 /* AuthorizationPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

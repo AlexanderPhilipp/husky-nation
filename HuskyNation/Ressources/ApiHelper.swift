@@ -12,9 +12,18 @@
 //Initialize with the url of the Sky API Endpoint
 
 class ApiHelper{
-    let apiEndpoint : String;
+    let ApiEndpoint : String;
+    var IsAuthorized : Bool = false;
     
-    init(endpoint : String){
-        apiEndpoint = endpoint;
+    init(Endpoint : String){
+        ApiEndpoint = Endpoint;
+        IsAuthorized = false;
+    }
+    
+    func requestAuthorization(Username: String, Password : String){
+        
+    }
+    func getAssignments(){
+        
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6fW-Ch-JY2">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -8,12 +8,77 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Authorization Contoller-->
+        <scene sceneID="1mH-uU-grg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oh1-f6-8Sv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="authorizationPage" title="Authorization Contoller" id="IDp-cV-M1J" customClass="AuthorizationPageView" customModule="HuskyNation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MvD-1N-3He">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehk-49-wdo">
+                                <rect key="frame" x="20" y="20" width="388" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="fNA-lG-en9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username..." textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="MJn-r2-zOK">
+                                <rect key="frame" x="60" y="350" width="308" height="38.333333333333314"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.41960784309999999" green="0.67450980390000004" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2QU-ue-hBP">
+                                <rect key="frame" x="60" y="396.33333333333331" width="308" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFe-ro-mXP">
+                                <rect key="frame" x="145" y="454.33333333333331" width="138" height="59.999999999999943"/>
+                                <color key="backgroundColor" red="0.41960784309999999" green="0.67450980390000004" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="fvk-L6-de6"/>
+                                </constraints>
+                                <color key="tintColor" red="0.41960784309999999" green="0.67450980390000004" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JiO-rv-WIi"/>
+                        <color key="backgroundColor" red="0.1843137255" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ehk-49-wdo" firstAttribute="leading" secondItem="JiO-rv-WIi" secondAttribute="leading" constant="20" id="4Kv-kM-iAU"/>
+                            <constraint firstItem="gFe-ro-mXP" firstAttribute="leading" secondItem="JiO-rv-WIi" secondAttribute="leading" constant="145" id="Bp6-6L-GUm"/>
+                            <constraint firstItem="MJn-r2-zOK" firstAttribute="top" secondItem="Ehk-49-wdo" secondAttribute="bottom" constant="265" id="DNS-qN-nQO"/>
+                            <constraint firstItem="JiO-rv-WIi" firstAttribute="trailing" secondItem="gFe-ro-mXP" secondAttribute="trailing" constant="145" id="S6o-y0-DFn"/>
+                            <constraint firstItem="JiO-rv-WIi" firstAttribute="trailing" secondItem="Ehk-49-wdo" secondAttribute="trailing" constant="20" id="SVY-Im-oZe"/>
+                            <constraint firstItem="JiO-rv-WIi" firstAttribute="trailing" secondItem="MJn-r2-zOK" secondAttribute="trailing" constant="60" id="UMd-hT-Rvf"/>
+                            <constraint firstItem="2QU-ue-hBP" firstAttribute="leading" secondItem="JiO-rv-WIi" secondAttribute="leading" constant="60" id="cws-BR-rcA"/>
+                            <constraint firstItem="Ehk-49-wdo" firstAttribute="top" secondItem="JiO-rv-WIi" secondAttribute="top" constant="20" id="fHh-J9-ram"/>
+                            <constraint firstItem="gFe-ro-mXP" firstAttribute="top" secondItem="2QU-ue-hBP" secondAttribute="bottom" constant="20" id="hqA-rt-7fG"/>
+                            <constraint firstItem="JiO-rv-WIi" firstAttribute="trailing" secondItem="2QU-ue-hBP" secondAttribute="trailing" constant="60" id="ihV-y5-pLP"/>
+                            <constraint firstItem="MJn-r2-zOK" firstAttribute="leading" secondItem="JiO-rv-WIi" secondAttribute="leading" constant="60" id="nVB-Wj-ZsA"/>
+                            <constraint firstItem="2QU-ue-hBP" firstAttribute="top" secondItem="MJn-r2-zOK" secondAttribute="bottom" constant="8" id="reY-5J-I61"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-137.38317757009344" y="517.06263498920089"/>
+        </scene>
         <!--Assignment Center-->
         <scene sceneID="NVD-co-ouS">
             <objects>
                 <viewController title="Assignment Center" id="XsW-qZ-XRB" customClass="AssignmentPageView" customModule="HuskyNation" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mif-9O-upi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="843"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="nja-Hk-EDn"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -32,7 +97,7 @@
             <objects>
                 <viewController title="Home Interface" id="gw9-mK-b3F" customClass="HomePageView" customModule="HuskyNation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hxv-Gw-yrO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="843"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="0Sy-yK-WZU"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -49,10 +114,10 @@
         <!--MainInterface-->
         <scene sceneID="T2o-Cr-Fii">
             <objects>
-                <tabBarController title="MainInterface" modalPresentationStyle="fullScreen" id="6fW-Ch-JY2" sceneMemberID="viewController">
+                <tabBarController title="MainInterface" modalPresentationStyle="fullScreen" id="6fW-Ch-JY2" customClass="MainInterfaceController" customModule="HuskyNation" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="IHr-G1-S3c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.1843137255" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -60,6 +125,9 @@
                     <connections>
                         <segue destination="gw9-mK-b3F" kind="relationship" relationship="viewControllers" id="S8W-yZ-IWg"/>
                         <segue destination="XsW-qZ-XRB" kind="relationship" relationship="viewControllers" id="gHU-GB-RZY"/>
+                        <segue destination="IDp-cV-M1J" kind="popoverPresentation" identifier="AuthPopOver" popoverAnchorView="IHr-G1-S3c" id="JId-W9-zmR">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="24r-wX-hPu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
