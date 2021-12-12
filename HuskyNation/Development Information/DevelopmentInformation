@@ -1,4 +1,11 @@
 This document contains information for the development
 
 
+Authorization Flow:
+    -Open Web View to display Blackbauds login prompt
+        ->Pass redirection URL from Web Server
+    -Wait for redirection to Web Server
+        ->Web Server receives the session toekn
+    -Get the session token from the Web Server
+    -Close Web View
 

@@ -24,6 +24,21 @@
 		F355F2372765107800B58D30 /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F2362765107800B58D30 /* MainInterfaceController.swift */; };
 		F355F23927651FD700B58D30 /* AuthorizationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F23827651FD700B58D30 /* AuthorizationPageView.swift */; };
 		F355F23C276678C000B58D30 /* Redirect-Auth.php in Resources */ = {isa = PBXBuildFile; fileRef = F355F23B276678C000B58D30 /* Redirect-Auth.php */; };
+		F355F23F2766A18200B58D30 /* LogoBig.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F23E2766A18200B58D30 /* LogoBig.png */; };
+		F355F2412766A34C00B58D30 /* AppIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F355F2402766A34C00B58D30 /* AppIcon.jpg */; };
+		F355F2522766A6B700B58D30 /* AppIcon_76px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F2452766A6B700B58D30 /* AppIcon_76px.png */; };
+		F355F2532766A6B700B58D30 /* AppIcon_152px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F2462766A6B700B58D30 /* AppIcon_152px.png */; };
+		F355F2542766A6B700B58D30 /* AppIcon_29px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F2472766A6B700B58D30 /* AppIcon_29px.png */; };
+		F355F2552766A6B700B58D30 /* AppIcon_1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F2482766A6B700B58D30 /* AppIcon_1024px.png */; };
+		F355F2562766A6B700B58D30 /* AppIcon_180px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F2492766A6B700B58D30 /* AppIcon_180px.png */; };
+		F355F2572766A6B700B58D30 /* AppIcon_40px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F24A2766A6B700B58D30 /* AppIcon_40px.png */; };
+		F355F2582766A6B700B58D30 /* AppIcon_80px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F24B2766A6B700B58D30 /* AppIcon_80px.png */; };
+		F355F2592766A6B700B58D30 /* AppIcon_60px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F24C2766A6B700B58D30 /* AppIcon_60px.png */; };
+		F355F25A2766A6B700B58D30 /* AppIcon_58px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F24D2766A6B700B58D30 /* AppIcon_58px.png */; };
+		F355F25B2766A6B700B58D30 /* AppIcon_20px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F24E2766A6B700B58D30 /* AppIcon_20px.png */; };
+		F355F25C2766A6B700B58D30 /* AppIcon_120px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F24F2766A6B700B58D30 /* AppIcon_120px.png */; };
+		F355F25D2766A6B700B58D30 /* AppIcon_167px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F2502766A6B700B58D30 /* AppIcon_167px.png */; };
+		F355F25E2766A6B700B58D30 /* AppIcon_87px.png in Resources */ = {isa = PBXBuildFile; fileRef = F355F2512766A6B700B58D30 /* AppIcon_87px.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +80,21 @@
 		F355F2362765107800B58D30 /* MainInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
 		F355F23827651FD700B58D30 /* AuthorizationPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPageView.swift; sourceTree = "<group>"; };
 		F355F23B276678C000B58D30 /* Redirect-Auth.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = "Redirect-Auth.php"; sourceTree = "<group>"; };
+		F355F23E2766A18200B58D30 /* LogoBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoBig.png; sourceTree = "<group>"; };
+		F355F2402766A34C00B58D30 /* AppIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppIcon.jpg; sourceTree = "<group>"; };
+		F355F2452766A6B700B58D30 /* AppIcon_76px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_76px.png; sourceTree = "<group>"; };
+		F355F2462766A6B700B58D30 /* AppIcon_152px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_152px.png; sourceTree = "<group>"; };
+		F355F2472766A6B700B58D30 /* AppIcon_29px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_29px.png; sourceTree = "<group>"; };
+		F355F2482766A6B700B58D30 /* AppIcon_1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_1024px.png; sourceTree = "<group>"; };
+		F355F2492766A6B700B58D30 /* AppIcon_180px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_180px.png; sourceTree = "<group>"; };
+		F355F24A2766A6B700B58D30 /* AppIcon_40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_40px.png; sourceTree = "<group>"; };
+		F355F24B2766A6B700B58D30 /* AppIcon_80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_80px.png; sourceTree = "<group>"; };
+		F355F24C2766A6B700B58D30 /* AppIcon_60px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_60px.png; sourceTree = "<group>"; };
+		F355F24D2766A6B700B58D30 /* AppIcon_58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_58px.png; sourceTree = "<group>"; };
+		F355F24E2766A6B700B58D30 /* AppIcon_20px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_20px.png; sourceTree = "<group>"; };
+		F355F24F2766A6B700B58D30 /* AppIcon_120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_120px.png; sourceTree = "<group>"; };
+		F355F2502766A6B700B58D30 /* AppIcon_167px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_167px.png; sourceTree = "<group>"; };
+		F355F2512766A6B700B58D30 /* AppIcon_87px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_87px.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +145,7 @@
 		F335CC4627617F4A002DEC83 /* HuskyNation */ = {
 			isa = PBXGroup;
 			children = (
+				F355F23D2766A16E00B58D30 /* Ressources */,
 				F355F23A2766788400B58D30 /* RedirectionPages */,
 				F355F233276507DB00B58D30 /* View Controllers */,
 				F355F232276507C000B58D30 /* API */,
@@ -181,6 +212,36 @@
 				F355F23B276678C000B58D30 /* Redirect-Auth.php */,
 			);
 			path = RedirectionPages;
+			sourceTree = "<group>";
+		};
+		F355F23D2766A16E00B58D30 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				F355F2442766A6B700B58D30 /* AppIcons */,
+				F355F2402766A34C00B58D30 /* AppIcon.jpg */,
+				F355F23E2766A18200B58D30 /* LogoBig.png */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		F355F2442766A6B700B58D30 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F355F2452766A6B700B58D30 /* AppIcon_76px.png */,
+				F355F2462766A6B700B58D30 /* AppIcon_152px.png */,
+				F355F2472766A6B700B58D30 /* AppIcon_29px.png */,
+				F355F2482766A6B700B58D30 /* AppIcon_1024px.png */,
+				F355F2492766A6B700B58D30 /* AppIcon_180px.png */,
+				F355F24A2766A6B700B58D30 /* AppIcon_40px.png */,
+				F355F24B2766A6B700B58D30 /* AppIcon_80px.png */,
+				F355F24C2766A6B700B58D30 /* AppIcon_60px.png */,
+				F355F24D2766A6B700B58D30 /* AppIcon_58px.png */,
+				F355F24E2766A6B700B58D30 /* AppIcon_20px.png */,
+				F355F24F2766A6B700B58D30 /* AppIcon_120px.png */,
+				F355F2502766A6B700B58D30 /* AppIcon_167px.png */,
+				F355F2512766A6B700B58D30 /* AppIcon_87px.png */,
+			);
+			path = AppIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,12 +348,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F355F2522766A6B700B58D30 /* AppIcon_76px.png in Resources */,
 				F355F22F2765078100B58D30 /* StyleColorPallet.png in Resources */,
+				F355F23F2766A18200B58D30 /* LogoBig.png in Resources */,
 				F335CC5727617F4B002DEC83 /* LaunchScreen.storyboard in Resources */,
+				F355F2572766A6B700B58D30 /* AppIcon_40px.png in Resources */,
 				F355F23C276678C000B58D30 /* Redirect-Auth.php in Resources */,
+				F355F2552766A6B700B58D30 /* AppIcon_1024px.png in Resources */,
+				F355F2532766A6B700B58D30 /* AppIcon_152px.png in Resources */,
+				F355F2562766A6B700B58D30 /* AppIcon_180px.png in Resources */,
+				F355F25C2766A6B700B58D30 /* AppIcon_120px.png in Resources */,
+				F355F2412766A34C00B58D30 /* AppIcon.jpg in Resources */,
+				F355F25D2766A6B700B58D30 /* AppIcon_167px.png in Resources */,
+				F355F2592766A6B700B58D30 /* AppIcon_60px.png in Resources */,
 				F335CC5427617F4B002DEC83 /* Assets.xcassets in Resources */,
+				F355F25B2766A6B700B58D30 /* AppIcon_20px.png in Resources */,
 				F335CC4F27617F4A002DEC83 /* Main.storyboard in Resources */,
+				F355F2542766A6B700B58D30 /* AppIcon_29px.png in Resources */,
+				F355F25E2766A6B700B58D30 /* AppIcon_87px.png in Resources */,
 				F355F22B276502EE00B58D30 /* DevelopmentInformation in Resources */,
+				F355F25A2766A6B700B58D30 /* AppIcon_58px.png in Resources */,
+				F355F2582766A6B700B58D30 /* AppIcon_80px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +582,7 @@
 				DEVELOPMENT_TEAM = QRDCR52ZJ5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HuskyNation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Husky Nation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -537,6 +614,7 @@
 				DEVELOPMENT_TEAM = QRDCR52ZJ5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HuskyNation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Husky Nation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

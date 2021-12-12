@@ -13,12 +13,15 @@
 import WebKit;
 
 class ApiHelper{
-    let AuthorizationEndPoint = "https://oauth2.sky.blackbaud.com/authorization"; //End point for authorization request
-    let AuthorizationRedirectURI = "https://alexanderphilipp.net/NHS/Redirect-Auth.php";
-    let ApplicationID = "a7d7ad41-f1d3-44a3-93fb-56899cff410e"; //Application ID used for authorization and api calls
-    
     //Runtime
     var IsAuthorized : Bool = false;
+    
+    
+    let ApplicationID = "a7d7ad41-f1d3-44a3-93fb-56899cff410e"; //Application ID used for authorization and api calls
+    
+    
+    let AuthorizationRedirectURI = "https://alexanderphilipp.net/NHS/Redirect-Auth.php";    //Redirection URL to Web Server
+    let AuthorizationEndPoint = "https://oauth2.sky.blackbaud.com/authorization";           //End point for authorization request
     
     func RequestAuthorization(viewController : UIViewController){
         let authRequest : String = AuthorizationEndPoint + "?client_id=" + ApplicationID + "&response_type=token" + "&redirect_uri=" + AuthorizationRedirectURI + "&state=" + "fdf80155";
