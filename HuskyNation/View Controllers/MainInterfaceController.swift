@@ -19,4 +19,10 @@ class MainInterfaceController : UITabBarController
     override func viewDidAppear(_ animated: Bool) {
         apiHelper.RequestAuthorization(viewController: self)
     }
+    
+    static func exitAuthorization(userAuth : UserAuthorization, view : UIViewController){
+        if(userAuth.isAuthorized){
+            view.dismiss(animated: true) { }
+        }
+    }
 }

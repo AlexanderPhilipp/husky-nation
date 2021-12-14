@@ -10,13 +10,10 @@
 //
 //Request data by awaiting desired function
 //Initialize with the url of the Sky API Endpoint
+
 import WebKit;
 
 class ApiHelper{
-    //Runtime
-    var IsAuthorized : Bool = false;
-    
-    
     let ApplicationID = "a7d7ad41-f1d3-44a3-93fb-56899cff410e"; //Application ID used for authorization and api calls
     
     
@@ -32,5 +29,54 @@ class ApiHelper{
         let authPageController = AuthorizationPageView(url: url, title: "Authorization");
         let navigationController = UINavigationController(rootViewController: authPageController);
         viewController.present(navigationController, animated: true);
+    }
+}
+
+
+struct AssignmentData{
+    let assignmentID : Int;
+    let assignedDate : Date;
+    let dueDate : Date;
+    let assignmentDescription : String;
+    let discussion : Bool;
+    
+    init(id : Int, aDate : Date, dDate : Date, desc : String, disc : Bool){
+        self.assignmentID = id;
+        self.assignedDate = aDate;
+        self.dueDate = dDate;
+        self.assignmentDescription = desc;
+        self.discussion = disc;
+    }
+}
+
+struct UserAuthorization{
+    var accessToken : String;
+    var tokenType : String;
+    var expiresInSeconds : Int;
+    var state : String;
+    var environmentId : String;
+    var environmentName : String;
+    var legalEntityId : String;
+    var legalEntityName : String;
+    var userId : String;
+    var emailAdress : String;
+    var lastName : String;
+    var firstName : String;
+    var isAuthorized : Bool;
+    
+    init(){
+        self.accessToken = "";
+        self.tokenType = "";
+        self.expiresInSeconds = 0;
+        self.state = "";
+        self.environmentId = "";
+        self.environmentName = "";
+        self.legalEntityId = "";
+        self.legalEntityName = "";
+        self.userId = "";
+        self.emailAdress = "";
+        self.lastName = "";
+        self.firstName = "";
+        self.isAuthorized = false;
     }
 }
