@@ -9,6 +9,8 @@ import UIKit
 
 class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var assignmentTableView: UITableView!
+    @IBOutlet weak var TopicDate: UILabel!
+    @IBOutlet weak var LogoImage: UIImageView!
     
     let data : [AssignmentData] = [
         AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
@@ -23,6 +25,18 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
         self.assignmentTableView.delegate = self
         
         self.registerAssignmentTableCell()
+        
+        
+        let currentDate = Date()
+        let formatter = DateFormatter()
+        formatter.timeZone = .current
+        // formatter.locale = .current
+        formatter.locale = Locale(identifier: "en_US")
+        formatter.dateFormat = "EEEE, MMM d, yyyy"
+        TopicDate.text = formatter.string(from: currentDate)
+         
+        
+        
     }
 
     
@@ -45,5 +59,6 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
         self.assignmentTableView.register(assignmentCell,
                                 forCellReuseIdentifier: "AssignmentTableCell")
     }
+        
 }
 
