@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_2" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="center" verticalHuggingPriority="300" selectionStyle="blue" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="AssignmentTableCell" customModule="HuskyNation" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="482" height="81"/>
+        <tableViewCell alpha="0.0" contentMode="center" verticalHuggingPriority="300" selectionStyle="blue" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="AssignmentTableCell" customModule="HuskyNation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="760" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="482" height="81"/>
+                <rect key="frame" x="0.0" y="0.0" width="760" height="80"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biology SL/HL Biology " lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuZ-fq-cnM">
-                        <rect key="frame" x="15" y="5" width="115" height="71"/>
+                        <rect key="frame" x="11" y="0.0" width="93" height="81"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="115" id="GAt-cL-u8k"/>
+                            <constraint firstAttribute="width" constant="93" id="GAt-cL-u8k"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                        <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
+                        <color key="textColor" red="0.1450980392" green="0.33333333329999998" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="highlightedColor" red="0.1843137255" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jea-56-Qgj">
-                        <rect key="frame" x="402" y="25.5" width="65" height="30"/>
+                        <rect key="frame" x="666" y="24" width="80" height="32"/>
                         <color key="backgroundColor" red="0.86162167050174832" green="0.38586286377553003" blue="0.29243214231035231" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="7zy-ey-yOL"/>
-                            <constraint firstAttribute="width" constant="65" id="Tha-FS-vzK"/>
+                            <constraint firstAttribute="height" constant="32" id="7zy-ey-yOL"/>
+                            <constraint firstAttribute="width" constant="80" id="Tha-FS-vzK"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                         <color key="tintColor" red="0.41960784309999999" green="0.67450980390000004" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,30 +49,61 @@
                         <buttonConfiguration key="configuration" style="filled" title="Status Button" cornerStyle="capsule">
                             <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                             <color key="baseForegroundColor" red="0.90196078430000004" green="0.90588235289999997" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="baseBackgroundColor" red="0.5450980392" green="0.60392156860000001" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </buttonConfiguration>
                     </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Monday, Feb 10th, 2022" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGc-WU-kLO">
+                        <rect key="frame" x="550" y="10" width="115" height="61"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="lUL-Er-2t1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
+                        <color key="textColor" red="0.16078431369999999" green="0.33333333329999998" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="highlightedColor" red="0.1843137255" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Analytical  Writing" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zv-i4-lne">
+                        <rect key="frame" x="129" y="10" width="115" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="eIs-lw-Y2Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
+                        <color key="textColor" red="0.16078431369999999" green="0.33333333329999998" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="highlightedColor" red="0.1843137255" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a debug message! It is working rn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hza-cm-dzw">
-                        <rect key="frame" x="135" y="5" width="262" height="71"/>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                        <color key="textColor" red="0.41960784309999999" green="0.67450980390000004" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <rect key="frame" x="213" y="5" width="329" height="70"/>
+                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
+                        <color key="textColor" red="0.16078431369999999" green="0.33333333329999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="highlightedColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                     </label>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="Hza-cm-dzw" secondAttribute="bottom" constant="5" id="5y7-UN-qxs"/>
                     <constraint firstItem="Hza-cm-dzw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="9gF-Qk-Xdf"/>
-                    <constraint firstAttribute="bottom" secondItem="uuZ-fq-cnM" secondAttribute="bottom" constant="5" id="KW5-ed-8BS"/>
+                    <constraint firstItem="6zv-i4-lne" firstAttribute="leading" secondItem="uuZ-fq-cnM" secondAttribute="trailing" constant="25" id="Aqs-8v-hiv"/>
+                    <constraint firstItem="6zv-i4-lne" firstAttribute="firstBaseline" secondItem="uuZ-fq-cnM" secondAttribute="firstBaseline" constant="10" id="J6E-nY-Tk4"/>
+                    <constraint firstAttribute="bottom" secondItem="uuZ-fq-cnM" secondAttribute="bottom" constant="-1" id="KW5-ed-8BS"/>
                     <constraint firstItem="Jea-56-Qgj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Nxo-Hn-b6n"/>
-                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="U1Q-FR-Ft7"/>
-                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="iqi-az-suC"/>
+                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="U1Q-FR-Ft7"/>
+                    <constraint firstItem="6zv-i4-lne" firstAttribute="centerY" secondItem="NGc-WU-kLO" secondAttribute="centerY" constant="-0.5" id="buQ-ht-lXe"/>
+                    <constraint firstItem="6zv-i4-lne" firstAttribute="centerY" secondItem="uuZ-fq-cnM" secondAttribute="centerY" id="eJi-2K-DY1"/>
+                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="iqi-az-suC"/>
                     <constraint firstItem="uuZ-fq-cnM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="joD-ML-hxC"/>
-                    <constraint firstItem="Hza-cm-dzw" firstAttribute="leading" secondItem="uuZ-fq-cnM" secondAttribute="trailing" constant="5" id="rpw-hf-nyg"/>
-                    <constraint firstAttribute="trailing" secondItem="Jea-56-Qgj" secondAttribute="trailing" constant="15" id="sWz-Fd-lDj"/>
-                    <constraint firstItem="Jea-56-Qgj" firstAttribute="leading" secondItem="Hza-cm-dzw" secondAttribute="trailing" constant="5" id="wLf-cl-clO"/>
+                    <constraint firstItem="6zv-i4-lne" firstAttribute="firstBaseline" secondItem="NGc-WU-kLO" secondAttribute="firstBaseline" id="ouc-dE-e6O"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NGc-WU-kLO" secondAttribute="trailing" constant="75" id="prz-Xl-8cf"/>
+                    <constraint firstItem="Hza-cm-dzw" firstAttribute="leading" secondItem="uuZ-fq-cnM" secondAttribute="trailing" constant="109" id="rpw-hf-nyg"/>
+                    <constraint firstAttribute="trailing" secondItem="Jea-56-Qgj" secondAttribute="trailing" constant="14" id="sWz-Fd-lDj"/>
+                    <constraint firstItem="Jea-56-Qgj" firstAttribute="leading" secondItem="Hza-cm-dzw" secondAttribute="trailing" constant="124" id="wLf-cl-clO"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="124.6376811594203" y="159.04017857142856"/>
+            <color key="backgroundColor" systemColor="systemGray4Color"/>
+            <point key="canvasLocation" x="138.5185185185185" y="68.333333333333329"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

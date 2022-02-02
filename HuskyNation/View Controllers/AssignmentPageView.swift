@@ -11,12 +11,29 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet weak var assignmentTableView: UITableView!
     @IBOutlet weak var TopicDate: UILabel!
     @IBOutlet weak var LogoImage: UIImageView!
+    @IBOutlet weak var MyAcount: UIButton!
+    @IBOutlet weak var AssignmentTableTop: NSLayoutConstraint!
     
     let data : [AssignmentData] = [
         AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
         AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
         AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
-        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),];
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+        AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),
+
+    ];
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,31 +51,48 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
         formatter.locale = Locale(identifier: "en_US")
         formatter.dateFormat = "EEEE, MMM d, yyyy"
         TopicDate.text = formatter.string(from: currentDate)
-         
+        
+        MyAcount.titleLabel?.textAlignment = .center
+        MyAcount.layer.cornerRadius = 15
+        MyAcount.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
+        
         
         
     }
-
-    
     
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
         return self.data.count
     }
+    
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "AssignmentTableCell") as? AssignmentTableCell {
             return cell
         }
-        
         return UITableViewCell()
     }
+    
     private func registerAssignmentTableCell() {
         let assignmentCell = UINib(nibName: "AssignmentTableCell",
                                   bundle: nil)
         self.assignmentTableView.register(assignmentCell,
                                 forCellReuseIdentifier: "AssignmentTableCell")
     }
+    
+    private func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell,
+                           cellForRowAtIndexPath indexPath: IndexPath)
+    {
+        if (indexPath.row % 2 == 0)
+        {
+            cell.backgroundColor = UIColor(red: 80, green: 100, blue: 150, alpha: 1.0)
+        } else {
+            cell.backgroundColor = UIColor.white
+        }
+        // cell.layer.cornerRadius = 5
+        // cell.layer.masksToBounds = true
+    }
+    
         
 }
 
