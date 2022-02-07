@@ -50,10 +50,6 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
         formatter.dateFormat = "EEEE, MMM d, yyyy"
         TopicDate.text = formatter.string(from: currentDate)
         
-        MyAcount.titleLabel?.textAlignment = .center
-        MyAcount.layer.cornerRadius = 15
-        MyAcount.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
-        
         
         
     }
@@ -66,6 +62,12 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "AssignmentTableCell") as? AssignmentTableCell {
+            if (indexPath.row % 2 == 0)
+            {
+                cell.backgroundColor = UIColor(red: 80, green: 100, blue: 150, alpha: 1.0)
+            } else {
+                cell.backgroundColor = UIColor.white
+            }
             return cell
         }
         return UITableViewCell()
