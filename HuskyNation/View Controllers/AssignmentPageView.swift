@@ -11,8 +11,6 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet weak var assignmentTableView: UITableView!
     @IBOutlet weak var TopicDate: UILabel!
     @IBOutlet weak var LogoImage: UIImageView!
-    @IBOutlet weak var MyAcount: UIButton!
-    @IBOutlet weak var AssignmentTableTop: NSLayoutConstraint!
     
     let data : [AssignmentData] = [
         AssignmentData(id: 0, aDate: Date.now, dDate: Date.now, desc: "", disc: false),

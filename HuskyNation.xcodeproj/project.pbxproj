@@ -41,6 +41,7 @@
 		F355F2602766E2BD00B58D30 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F25F2766E2BD00B58D30 /* HomePageView.swift */; };
 		F355F29E2767AC7700B58D30 /* AssignmentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F29C2767AC7700B58D30 /* AssignmentTableCell.swift */; };
 		F355F29F2767AC7700B58D30 /* AssignmentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F355F29D2767AC7700B58D30 /* AssignmentTableCell.xib */; };
+		F3FE2F9527AB419500F5A712 /* DesignColorPallet.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F3FE2F9427AB419500F5A712 /* DesignColorPallet.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		F355F25F2766E2BD00B58D30 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		F355F29C2767AC7700B58D30 /* AssignmentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTableCell.swift; sourceTree = "<group>"; };
 		F355F29D2767AC7700B58D30 /* AssignmentTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssignmentTableCell.xib; sourceTree = "<group>"; };
+		F3FE2F9427AB419500F5A712 /* DesignColorPallet.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = DesignColorPallet.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 		F355F23D2766A16E00B58D30 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				F3FE2F9427AB419500F5A712 /* DesignColorPallet.rtf */,
 				F355F2442766A6B700B58D30 /* AppIcons */,
 				F355F2402766A34C00B58D30 /* AppIcon.jpg */,
 				F355F23E2766A18200B58D30 /* LogoBig.png */,
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F355F2522766A6B700B58D30 /* AppIcon_76px.png in Resources */,
+				F3FE2F9527AB419500F5A712 /* DesignColorPallet.rtf in Resources */,
 				F355F22F2765078100B58D30 /* StyleColorPallet.png in Resources */,
 				F355F23F2766A18200B58D30 /* LogoBig.png in Resources */,
 				F335CC5727617F4B002DEC83 /* LaunchScreen.storyboard in Resources */,
