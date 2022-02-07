@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -18,29 +17,29 @@
                 <rect key="frame" x="0.0" y="0.0" width="482" height="81"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biology SL/HL Biology " lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuZ-fq-cnM">
-                        <rect key="frame" x="15" y="5" width="115" height="71"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biology SL/HL Biology " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uuZ-fq-cnM">
+                        <rect key="frame" x="15" y="5" width="100" height="71"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="115" id="GAt-cL-u8k"/>
+                            <constraint firstAttribute="width" constant="100" id="uBw-wf-xuP"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" red="0.1843137255" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jea-56-Qgj">
-                        <rect key="frame" x="402" y="25.5" width="65" height="30"/>
+                        <rect key="frame" x="357" y="25" width="110" height="31"/>
                         <color key="backgroundColor" red="0.86162167050174832" green="0.38586286377553003" blue="0.29243214231035231" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="7zy-ey-yOL"/>
-                            <constraint firstAttribute="width" constant="65" id="Tha-FS-vzK"/>
+                            <constraint firstAttribute="width" constant="110" id="Sfu-oa-Axc"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                         <color key="tintColor" red="0.41960784309999999" green="0.67450980390000004" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                        <menu key="menu" id="EZy-dJ-BvZ">
+                        <menu key="menu" title="Status" id="EZy-dJ-BvZ">
                             <children>
-                                <command title="Item 1" id="LlL-VF-le6"/>
-                                <command title="Item 2" id="ojm-pb-b4s"/>
+                                <command title="To Do" discoverabilityTitle="" id="4h5-IJ-87s"/>
+                                <command title="In Progress" id="LlL-VF-le6"/>
+                                <command title="Complete" id="ojm-pb-b4s"/>
                             </children>
                         </menu>
                         <state key="normal" title="Status Button">
@@ -52,23 +51,26 @@
                         </buttonConfiguration>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a debug message! It is working rn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hza-cm-dzw">
-                        <rect key="frame" x="135" y="5" width="262" height="71"/>
+                        <rect key="frame" x="125" y="5" width="222" height="71"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                         <color key="textColor" red="0.41960784309999999" green="0.67450980390000004" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="Hza-cm-dzw" secondAttribute="bottom" constant="5" id="5y7-UN-qxs"/>
-                    <constraint firstItem="Hza-cm-dzw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="9gF-Qk-Xdf"/>
-                    <constraint firstAttribute="bottom" secondItem="uuZ-fq-cnM" secondAttribute="bottom" constant="5" id="KW5-ed-8BS"/>
-                    <constraint firstItem="Jea-56-Qgj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Nxo-Hn-b6n"/>
-                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="U1Q-FR-Ft7"/>
-                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="iqi-az-suC"/>
-                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="joD-ML-hxC"/>
-                    <constraint firstItem="Hza-cm-dzw" firstAttribute="leading" secondItem="uuZ-fq-cnM" secondAttribute="trailing" constant="5" id="rpw-hf-nyg"/>
-                    <constraint firstAttribute="trailing" secondItem="Jea-56-Qgj" secondAttribute="trailing" constant="15" id="sWz-Fd-lDj"/>
-                    <constraint firstItem="Jea-56-Qgj" firstAttribute="leading" secondItem="Hza-cm-dzw" secondAttribute="trailing" constant="5" id="wLf-cl-clO"/>
+                    <constraint firstAttribute="bottom" secondItem="Hza-cm-dzw" secondAttribute="bottom" constant="5" id="1gc-3u-hhM"/>
+                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Cqq-u1-18v"/>
+                    <constraint firstItem="Jea-56-Qgj" firstAttribute="leading" secondItem="Hza-cm-dzw" secondAttribute="trailing" constant="10" id="DMp-uQ-DJz"/>
+                    <constraint firstAttribute="bottom" secondItem="Jea-56-Qgj" secondAttribute="bottom" constant="25" id="Zei-Ae-g14"/>
+                    <constraint firstItem="Hza-cm-dzw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="c7S-py-Dpr"/>
+                    <constraint firstAttribute="bottom" secondItem="uuZ-fq-cnM" secondAttribute="bottom" constant="5" id="d2i-5q-S0d"/>
+                    <constraint firstItem="uuZ-fq-cnM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="hJt-L7-cga"/>
+                    <constraint firstItem="Jea-56-Qgj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="j38-aZ-Ihw"/>
+                    <constraint firstItem="Hza-cm-dzw" firstAttribute="leading" secondItem="uuZ-fq-cnM" secondAttribute="trailing" constant="10" id="kGS-aR-1tn"/>
+                    <constraint firstItem="Jea-56-Qgj" firstAttribute="leading" secondItem="Hza-cm-dzw" secondAttribute="trailing" constant="10" id="oXi-Tw-MuO"/>
+                    <constraint firstItem="Hza-cm-dzw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="uxz-SP-cCF"/>
+                    <constraint firstAttribute="bottom" secondItem="Hza-cm-dzw" secondAttribute="bottom" constant="5" id="vcd-E2-gFt"/>
+                    <constraint firstAttribute="trailing" secondItem="Jea-56-Qgj" secondAttribute="trailing" constant="15" id="yyP-uX-4SF"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

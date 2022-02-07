@@ -34,8 +34,6 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
         formatter.locale = Locale(identifier: "en_US")
         formatter.dateFormat = "EEEE, MMM d, yyyy"
         TopicDate.text = formatter.string(from: currentDate)
-         
-        
         
     }
 
