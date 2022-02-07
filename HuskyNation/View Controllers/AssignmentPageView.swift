@@ -61,16 +61,14 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
     
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "AssignmentTableCell") as? AssignmentTableCell {
-            if (indexPath.row % 2 == 0)
-            {
-                cell.backgroundColor = UIColor(red: 80, green: 100, blue: 150, alpha: 1.0)
-            } else {
-                cell.backgroundColor = UIColor.white
-            }
-            return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AssignmentTableCell") as! AssignmentTableCell
+        if(indexPath.row % 2 == 0){
+            cell.contentView.backgroundColor = UIColor(red: 0.184, green: 0.333, blue: 0.208, alpha: 1.0)
         }
-        return UITableViewCell()
+        else{
+            cell.contentView.backgroundColor = UIColor(red: 0.42, green: 0.675, blue: 0.329, alpha: 1.0)
+        }
+        return cell
     }
     
     private func registerAssignmentTableCell() {
@@ -79,20 +77,5 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
         self.assignmentTableView.register(assignmentCell,
                                 forCellReuseIdentifier: "AssignmentTableCell")
     }
-    
-    private func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell,
-                           cellForRowAtIndexPath indexPath: IndexPath)
-    {
-        if (indexPath.row % 2 == 0)
-        {
-            cell.backgroundColor = UIColor(red: 80, green: 100, blue: 150, alpha: 1.0)
-        } else {
-            cell.backgroundColor = UIColor.white
-        }
-        // cell.layer.cornerRadius = 5
-        // cell.layer.masksToBounds = true
-    }
-    
-        
 }
 

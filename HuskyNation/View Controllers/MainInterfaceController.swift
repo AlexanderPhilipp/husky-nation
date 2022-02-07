@@ -11,13 +11,16 @@ import WebKit;
 class MainInterfaceController : UITabBarController
 {
     var apiHelper = ApiHelper(); //API Helper Class for interactions with the Blackbaud solution
+    let bypassAuth : Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        apiHelper.RequestAuthorization(viewController: self)
+        if(!bypassAuth){
+            apiHelper.RequestAuthorization(viewController: self)
+        }
     }
     
     static func exitAuthorization(userAuth : UserAuthorization, view : UIViewController){
