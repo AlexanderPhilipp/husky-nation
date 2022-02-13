@@ -75,7 +75,7 @@ class AuthorizationPageView : UIViewController {
         
         for index in (0...fragments!.count - 1){
             let value = fragments![index].components(separatedBy: "=")[1];
-            
+                 
             switch index{
             case 0:
                 authData.accessToken = value;
@@ -118,7 +118,6 @@ class AuthorizationPageView : UIViewController {
             }
         }
         authData.isAuthorized = true;
-        
         MainInterfaceController.exitAuthorization(userAuth: authData, view: self)
     }
 }

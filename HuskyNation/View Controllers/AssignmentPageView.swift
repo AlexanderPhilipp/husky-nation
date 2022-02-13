@@ -51,7 +51,7 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
         TopicDate.text = formatter.string(from: currentDate)
         
         
-        
+        MainInterfaceController.apiHelper.GetAssignments()
     }
     
     func tableView(_ tableView: UITableView,

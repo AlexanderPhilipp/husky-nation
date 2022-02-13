@@ -9,7 +9,6 @@ import UIKit
 
 class HomePageView : UIViewController {
     @IBOutlet weak var topicDate: UILabel!
-    @IBOutlet weak var MyAcount: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
