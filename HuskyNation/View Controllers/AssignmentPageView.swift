@@ -62,11 +62,12 @@ class AssignmentPageView : UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "AssignmentTableCell") as! AssignmentTableCell
-        if(indexPath.row % 2 == 0){
-            cell.contentView.backgroundColor = UIColor(red: 0.184, green: 0.333, blue: 0.208, alpha: 1.0)
+        
+        if (indexPath.row % 2 == 0){
+            cell.contentView.backgroundColor = UIColor(red: 0.184, green: 0.333, blue: 0.208, alpha: 0.7)
         }
         else{
-            cell.contentView.backgroundColor = UIColor(red: 0.42, green: 0.675, blue: 0.329, alpha: 1.0)
+            cell.contentView.backgroundColor = UIColor(red: 0.42, green: 0.675, blue: 0.329, alpha: 0.4)
         }
         return cell
     }
